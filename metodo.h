@@ -23,7 +23,7 @@ void Trapecio::calculos() {
     ints = (b-a)/n;
     z1 = (b-a)/(2*n);
     for (a; a <= b; a += ints){
-      z2[count] = ((8*a) + pow(e,0.1*a)); //AQUI SE CAMBIA LA FUNCION
+      z2[count] = ((8*a) + pow(e,0.1*a));
       count++;
     }
     for (int i = 1; i <= n-1; i++){
